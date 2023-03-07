@@ -38,7 +38,7 @@ public class Frontcontroller extends HttpServlet {
          String valeur = request.getQueryString();
          String url = request.getRequestURL().toString();
          String urlstring = valeur + "?" + url;
-         out.print(urlstring);
+         out.print("URL: "+urlstring);
     
         }
     }
