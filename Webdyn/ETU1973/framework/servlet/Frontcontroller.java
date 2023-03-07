@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author itu
  */
 public class Frontcontroller extends HttpServlet {
-    HashMap<String,Mapping> MappingUrls;
+    
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
